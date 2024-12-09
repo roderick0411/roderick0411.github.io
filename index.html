@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oxygen&family=Oxygen+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Roderick Anthony Portfolio</title>
+  </head>
+
+  <body>
+    <nav>
+      <ul>
+        <li>
+          <h1>
+            <a href="index.html"
+              ><span class="fas fa-code" aria-hidden="true"></span> Roderick
+              Anthony</a
+            >
+          </h1>
+        </li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#intro">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li>
+          <a
+            href="https://www.linkedin.com/in/roderick-anthony-44282992/"
+            target="_blank"
+          >
+            <span class="fab fa-linkedin" aria-hidden="true"></span>
+            <span class="sr-only">LinkedIn</span>
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/roderick0411" target="_blank">
+            <span class="fab fa-github-square" aria-hidden="true"></span>
+            <span class="sr-only">Github</span>
+          </a>
+        </li>
+        <li>
+          <a href="https://codepen.io/roderick1304" target="_blank">
+            <span class="fab fa-brands fa-codepen" aria-hidden="true"></span>
+            <span class="sr-only">CodePen</span>
+          </a>
+        </li>
+        <li>
+          <a href="/" target="_blank" class="button">Resume</a>
+        </li>
+      </ul>
+    </nav>
+
+    <section id="intro">
+      <p class="name">Hi, my name is <span>Roderick Anthony.</span></p>
+      <h2>I make Websites.</h2>
+      <p>
+        I'm a Full Stack Developer with a background in Data Analytics and a
+        strong leaning towards implementing cool Designs in the UI.
+      </p>
+      <p>
+        Currently, I'm trying to level-up my Front-End skills using tools like
+        SVG, CSS Animations and D3.JS. Here's my
+        <a
+          href="https://frontendmasters.com/teachers/jen-kramer/"
+          target="_blank"
+          >Codepen</a
+        >. (Getting there)
+      </p>
+    </section>
+    <div class="gradient"></div>
+    <div class="section-blue">
+      <section id="projects">
+        <h2>Projects I'm proud of</h2>
+        <article>
+          <div class="text">
+            <h4>Full Stack E-Commerce Application</h4>
+            <h3>Buy-Busy Online Store</h3>
+            <p class="blackbox">
+              Buy-Busy is a web application for the customers of an e-commerce
+              business that enables individuals to browse available items, add
+              or remove them from their shopping cart, and complete the
+              purchasing process. Here is a
+              <a
+                target="_blank"
+                href="https://roderick0411.github.io/Marvel-API-App/"
+                >Demo Video</a
+              >
+              of the Application
+            </p>
+            <h4>Technologies used include:</h4>
+            <ul>
+              <li>React-Router</li>
+              <li>Redux</li>
+              <li>Express JS</li>
+              <li>Mongo DB</li>
+            </ul>
+          </div>
+          <img src="images/buyBusy.png" alt="Screenshot of the Buy-Busy App." />
+        </article>
+        <article class="reverse">
+          <div class="text">
+            <h4>SocketIO based Chat Application</h4>
+            <h3>Chatter-Up</h3>
+            <p class="blackbox">
+              Chatter-Up is an interactive real-time chat application,
+              facilitating seamless communication and interaction between users.
+              This application is built using Node.js, ExpressJS, Socket.io, and
+              MongoDB to provide a robust and engaging chat experience. Here's a
+              <a href="https://frontendmasters.github.io/bootcamp/mole"
+                >Demo Video</a
+              >
+              of the App in action.
+            </p>
+            <h4>Technologies used include:</h4>
+            <ul>
+              <li>Socket.IO</li>
+              <li>Express JS</li>
+              <li>Mongo DB</li>
+            </ul>
+          </div>
+          <img
+            src="images/chatterUp.png"
+            alt="Screenshot of the Chatter-Up App."
+          />
+        </article>
+        <article>
+          <div class="text">
+            <h4>Dynamic CSS Animation</h4>
+            <h3>Marvel API Project</h3>
+            <p class="blackbox">
+              Being a fan on the classic comic artwork I wanted a sliding
+              animation on these comic covers. Got the image links from
+              Pinterest, decided on using CSS transition for animation. However
+              the covers had different heights so had to promisify the loading
+              of images and then use Javascript to calculate the total height of
+              the strip of images and dynamically apply the corresponding styles
+              to the Elements. Here's the
+              <a
+                target="_blank"
+                href="https://roderick0411.github.io/Marvel-API-App/"
+                >final result</a
+              >
+            </p>
+            <h4>Technologies used include:</h4>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+            </ul>
+          </div>
+          <img
+            src="images/marvel.png"
+            alt="Screenshot of the Marvel Marvel-API-App."
+          />
+        </article>
+        <article class="reverse">
+          <div class="text">
+            <h4>Backend API's for a feature packed E-Commerce App</h4>
+            <h3>StoreFleet</h3>
+            <p class="blackbox">
+              'StoreFleet' is an instant product delivery service similar to
+              Blinkit, Zepto, and Swiggy. Some prominent features of this
+              project include - Welcome E-mail with Nodemailer, Mongoose
+              Middleware, Forget Password and Reset Feature using email OPT
+              verification. Here is the
+              <a href="https://github.com/roderick0411/StoreFleet"
+                >Repository Link</a
+              >
+              of the App.
+            </p>
+            <h4>Technologies used include:</h4>
+            <ul>
+              <li>Mongoose</li>
+              <li>Node JS</li>
+              <li>Node Mailer</li>
+            </ul>
+          </div>
+          <img
+            src="images/storeFleet.png"
+            alt="Screenshot of the StoreFleet App."
+          />
+        </article>
+      </section>
+    </div>
+    <div class="gradient"></div>
+    <div class="section-plum">
+      <section id="contact">
+        <h2>Contact me</h2>
+        <p>
+          I'm always interested in hearing about new teaching opportunities,
+          writing curricula, or instructional design work.
+        </p>
+        <p><a href="mailto:jen@example.com" class="button">Email me</a></p>
+      </section>
+    </div>
+    <div class="gradient"></div>
+    <footer>
+      <h2>Roderick Anthony &middot; Web Developer</h2>
+      <ul>
+        <li>
+          <a href="https://www.linkedin.com/in/jen4web" target="_blank">
+            <span class="fab fa-linkedin" aria-hidden="true"></span>
+            <span class="sr-only">LinkedIn</span>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.github.com/jen4web" target="_blank">
+            <span class="fab fa-github-square" aria-hidden="true"></span>
+            <span class="sr-only">Github</span>
+          </a>
+        </li>
+        <li>
+          <a href="mailto:jen@example.com">
+            <span class="fas fa-envelope" aria-hidden="true"></span>
+            <span class="sr-only">Email</span>
+          </a>
+        </li>
+      </ul>
+      <p><small>&copy; 2025 Roderick Anthony. All rights reserved.</small></p>
+    </footer>
+  </body>
+</html>
