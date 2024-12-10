@@ -177,6 +177,7 @@ nav [class*="fa-"]:hover {
     border-radius: 5px;
     text-decoration: none;
     font-family: var(--mono);
+    /* margin: 1rem; */
 }
 
 .button:hover {
